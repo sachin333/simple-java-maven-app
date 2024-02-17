@@ -8,8 +8,8 @@ pipeline {
     agent any
     tools { 
         maven 'maven 3.3.9' 
-        jdk 'jdk'
-        node 'nodejs'
+        //jdk 'jdk'
+        nodejs 'node'
     }
     stages {
         stage('Build') {
